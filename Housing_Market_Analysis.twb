@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Housing-selected-columns' inline='true' name='federated.0ykguo90clpuw61c621vu1cn8l89' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Housing-selected-columns' name='textscan.029g0sp1vh9dfg1bcp2td03wfyq3'>
+            <connection class='textscan' directory='C:/Users/DELL/OneDrive/Documents' filename='Housing-selected-columns.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.029g0sp1vh9dfg1bcp2td03wfyq3' name='Housing-selected-columns.csv' table='[Housing-selected-columns#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='price' ordinal='0' />
+            <column datatype='integer' name='area' ordinal='1' />
+            <column datatype='integer' name='bedrooms' ordinal='2' />
+            <column datatype='integer' name='bathrooms' ordinal='3' />
+            <column datatype='integer' name='stories' ordinal='4' />
+            <column datatype='string' name='mainroad' ordinal='5' />
+            <column datatype='string' name='guestroom' ordinal='6' />
+            <column datatype='string' name='basement' ordinal='7' />
+            <column datatype='string' name='hotwaterheating' ordinal='8' />
+            <column datatype='string' name='airconditioning' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bedrooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bedrooms]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>bedrooms</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bathrooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bathrooms]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>bathrooms</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stories]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>stories</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mainroad</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mainroad]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>mainroad</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guestroom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[guestroom]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>guestroom</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>basement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[basement]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>basement</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hotwaterheating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hotwaterheating]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>hotwaterheating</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>airconditioning</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[airconditioning]</local-name>
+            <parent-name>[Housing-selected-columns.csv]</parent-name>
+            <remote-alias>airconditioning</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Housing-selected-columns.csv' datatype='table' name='[__tableau_internal_object_id__].[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]' role='measure' type='quantitative' />
+      <column caption='Airconditioning' datatype='string' name='[airconditioning]' role='dimension' type='nominal' />
+      <column caption='Area' datatype='integer' name='[area]' role='measure' type='quantitative' />
+      <column caption='Basement' datatype='string' name='[basement]' role='dimension' type='nominal' />
+      <column caption='Bathrooms' datatype='integer' name='[bathrooms]' role='measure' type='quantitative' />
+      <column caption='Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='quantitative' />
+      <column caption='Guestroom' datatype='string' name='[guestroom]' role='dimension' type='nominal' />
+      <column caption='Hotwaterheating' datatype='string' name='[hotwaterheating]' role='dimension' type='nominal' />
+      <column caption='Mainroad' datatype='string' name='[mainroad]' role='dimension' type='nominal' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Stories' datatype='integer' name='[stories]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Housing-selected-columns.csv' id='Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB'>
+            <properties context=''>
+              <relation connection='textscan.029g0sp1vh9dfg1bcp2td03wfyq3' name='Housing-selected-columns.csv' table='[Housing-selected-columns#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='price' ordinal='0' />
+                  <column datatype='integer' name='area' ordinal='1' />
+                  <column datatype='integer' name='bedrooms' ordinal='2' />
+                  <column datatype='integer' name='bathrooms' ordinal='3' />
+                  <column datatype='integer' name='stories' ordinal='4' />
+                  <column datatype='string' name='mainroad' ordinal='5' />
+                  <column datatype='string' name='guestroom' ordinal='6' />
+                  <column datatype='string' name='basement' ordinal='7' />
+                  <column datatype='string' name='hotwaterheating' ordinal='8' />
+                  <column datatype='string' name='airconditioning' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Housing-selected-columns' name='federated.0ykguo90clpuw61c621vu1cn8l89' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ykguo90clpuw61c621vu1cn8l89'>
+            <column caption='Housing-selected-columns.csv' datatype='table' name='[__tableau_internal_object_id__].[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Housing-selected-columns.csv_C8CFD9F4573D423D86B86BBE5F0336FB:qk]' pivot='key' type='quantitative' />
+            <column caption='Airconditioning' datatype='string' name='[airconditioning]' role='dimension' type='nominal' />
+            <column caption='Area' datatype='integer' name='[area]' role='measure' type='quantitative' />
+            <column caption='Basement' datatype='string' name='[basement]' role='dimension' type='nominal' />
+            <column caption='Bathrooms' datatype='integer' name='[bathrooms]' role='measure' type='quantitative' />
+            <column caption='Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='quantitative' />
+            <column caption='Guestroom' datatype='string' name='[guestroom]' role='dimension' type='nominal' />
+            <column caption='Hotwaterheating' datatype='string' name='[hotwaterheating]' role='dimension' type='nominal' />
+            <column caption='Mainroad' datatype='string' name='[mainroad]' role='dimension' type='nominal' />
+            <column-instance column='[airconditioning]' derivation='None' name='[none:airconditioning:nk]' pivot='key' type='nominal' />
+            <column-instance column='[basement]' derivation='None' name='[none:basement:nk]' pivot='key' type='nominal' />
+            <column-instance column='[guestroom]' derivation='None' name='[none:guestroom:nk]' pivot='key' type='nominal' />
+            <column-instance column='[hotwaterheating]' derivation='None' name='[none:hotwaterheating:nk]' pivot='key' type='nominal' />
+            <column-instance column='[mainroad]' derivation='None' name='[none:mainroad:nk]' pivot='key' type='nominal' />
+            <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+            <column caption='Stories' datatype='integer' name='[stories]' role='measure' type='quantitative' />
+            <column-instance column='[area]' derivation='Sum' name='[sum:area:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bathrooms]' derivation='Sum' name='[sum:bathrooms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bedrooms]' derivation='Sum' name='[sum:bedrooms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[price]' derivation='Sum' name='[sum:price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stories]' derivation='Sum' name='[sum:stories:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ykguo90clpuw61c621vu1cn8l89].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ykguo90clpuw61c621vu1cn8l89].[none:airconditioning:nk] / ([federated.0ykguo90clpuw61c621vu1cn8l89].[none:guestroom:nk] / ([federated.0ykguo90clpuw61c621vu1cn8l89].[none:hotwaterheating:nk] / [federated.0ykguo90clpuw61c621vu1cn8l89].[none:mainroad:nk])))</rows>
+        <cols>([federated.0ykguo90clpuw61c621vu1cn8l89].[none:basement:nk] / [federated.0ykguo90clpuw61c621vu1cn8l89].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{25B00B1F-E510-48AC-ADF4-72289BF9952E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C5BC7CD5-8010-4F34-A190-68428AEFF496}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      P5kEP9558YguAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
