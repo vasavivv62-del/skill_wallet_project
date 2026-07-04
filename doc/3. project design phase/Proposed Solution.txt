@@ -1,0 +1,71 @@
+# Proposed Solution
+
+## Introduction
+
+The proposed solution is to develop an interactive Tableau dashboard that provides a clear and detailed analysis of housing market trends. The dashboard converts raw housing data into meaningful visualizations, enabling users to understand property prices, compare house features, and identify market patterns.
+
+## Proposed System
+
+The system is designed to import housing market data from a CSV or Excel file into Tableau. After importing the data, Tableau processes it and generates interactive dashboards containing various charts, graphs, maps, and filters.
+
+The dashboard allows users to analyze house prices based on different factors such as location, number of bedrooms, bathrooms, living area, lot size, and other property features.
+
+## Key Features
+
+• Interactive Dashboard
+
+• Sale Price Analysis
+
+• Location-wise House Price Comparison
+
+• Bedroom and Bathroom Analysis
+
+• Living Area Analysis
+
+• Interactive Filters
+
+• Easy Navigation
+
+• User-Friendly Interface
+
+## Working Process
+
+Step 1:
+Collect the housing dataset from a reliable source.
+
+Step 2:
+Import the dataset into Tableau Desktop.
+
+Step 3:
+Clean and organize the data.
+
+Step 4:
+Create charts, graphs, and dashboards.
+
+Step 5:
+Publish the dashboard using Tableau Public.
+
+Step 6:
+Users interact with the dashboard to analyze housing market trends.
+
+## Advantages
+
+• Easy to understand.
+
+• Interactive visualizations.
+
+• Fast analysis of housing data.
+
+• Better decision making.
+
+• Saves time and effort.
+
+• Helps buyers, sellers, and investors.
+
+## Expected Outcome
+
+The proposed solution provides an efficient dashboard that helps users understand housing market trends through interactive visualizations. It enables better comparison of properties and supports informed decision-making.
+
+## Conclusion
+
+The proposed Tableau dashboard transforms complex housing datasets into meaningful visual insights. The solution is simple, interactive, reliable, and suitable for analyzing housing market trends.

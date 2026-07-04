@@ -1,0 +1,62 @@
+# Solution Requirement
+
+## Introduction
+
+The proposed solution is to develop an interactive Tableau dashboard that analyzes housing market trends using a housing sales dataset. The dashboard helps users understand property prices, compare house features, and identify market trends through interactive visualizations.
+
+## Functional Requirements
+
+The system should be able to:
+
+• Import the housing dataset into Tableau.
+• Process and clean the data.
+• Display interactive dashboards.
+• Provide filters based on location, bedrooms, bathrooms, and sale price.
+• Generate charts and graphs for analysis.
+• Help users compare different properties.
+
+## Non-Functional Requirements
+
+The system should:
+
+• Be easy to use.
+• Provide accurate results.
+• Load dashboards quickly.
+• Be reliable and user-friendly.
+• Present information in a clear visual format.
+
+## Hardware Requirements
+
+• Processor: Intel Core i3 or above
+• RAM: 4 GB or higher
+• Storage: 20 GB free space
+• Monitor: 1366 × 768 resolution or higher
+
+## Software Requirements
+
+• Operating System: Windows 10/11
+• Tableau Desktop
+• Microsoft Excel
+• GitHub
+• Tableau Public
+• Web Browser (Chrome, Edge, or Firefox)
+
+## Users of the System
+
+• Home Buyers
+• Property Sellers
+• Real Estate Agents
+• Property Investors
+• Market Analysts
+
+## Benefits
+
+• Easy analysis of housing market trends.
+• Better visualization using Tableau.
+• Interactive dashboards with filters.
+• Improved decision making.
+• Saves time and effort.
+
+## Conclusion
+
+The proposed solution fulfills both functional and non-functional requirements by providing an efficient, interactive, and user-friendly housing market analysis dashboard using Tableau.

@@ -1,0 +1,92 @@
+# Performance Testing
+
+## Introduction
+
+Performance Testing is conducted to evaluate the efficiency, reliability, and responsiveness of the Tableau dashboard. It ensures that the dashboard performs well while handling housing market data and provides accurate visualizations without delays.
+
+## Objectives
+
+The main objectives of performance testing are:
+
+• Verify that the dashboard loads correctly.
+
+• Ensure all charts and graphs display accurate information.
+
+• Test the functionality of filters.
+
+• Check the response time of dashboard interactions.
+
+• Ensure smooth navigation between dashboards and stories.
+
+## Test Cases
+
+### Test Case 1: Dashboard Loading
+
+Description:
+Verify that the Tableau dashboard loads successfully.
+
+Expected Result:
+The dashboard opens without any errors and displays all charts correctly.
+
+Status:
+Passed
+
+### Test Case 2: Filter Functionality
+
+Description:
+Apply different filters such as location, bedrooms, bathrooms, and sale price.
+
+Expected Result:
+The dashboard updates instantly based on the selected filter values.
+
+Status:
+Passed
+
+### Test Case 3: Chart Accuracy
+
+Description:
+Verify that all charts display correct values from the housing dataset.
+
+Expected Result:
+Charts accurately represent the imported data.
+
+Status:
+Passed
+
+### Test Case 4: Story Navigation
+
+Description:
+Navigate between different story points in Tableau.
+
+Expected Result:
+Each story page opens correctly without delays.
+
+Status:
+Passed
+
+### Test Case 5: Dashboard Performance
+
+Description:
+Check the response time while interacting with filters and charts.
+
+Expected Result:
+The dashboard responds quickly and smoothly.
+
+Status:
+Passed
+
+## Performance Results
+
+• Dashboard loading time was satisfactory.
+
+• All filters worked correctly.
+
+• Charts displayed accurate information.
+
+• User interaction was smooth.
+
+• No major performance issues were observed.
+
+## Conclusion
+
+The performance testing confirmed that the Tableau dashboard works efficiently and provides accurate visualizations. All major functionalities performed successfully, making the dashboard reliable for housing market analysis.

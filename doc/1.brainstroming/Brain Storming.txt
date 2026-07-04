@@ -1,0 +1,31 @@
+# Brain Storming
+
+## Introduction
+
+Brainstorming is the initial phase of project development where different ideas are generated and evaluated to identify the most suitable solution. The objective is to select a project that addresses a real-world problem and can be implemented using data visualization techniques.
+
+## Idea Generation
+
+During the brainstorming session, several project ideas were discussed, including student performance analysis, sales performance dashboards, healthcare data visualization, and housing market analysis. After comparing these ideas, housing market analysis was selected because it provides valuable insights into property prices, customer preferences, and market trends.
+
+## Selected Project
+
+**Visualizing Housing Market Trends: An Analysis of Sale Prices and Features using Tableau**
+
+The selected project focuses on analyzing housing market data using Tableau. The dashboard presents interactive visualizations that help users understand how different factors such as location, number of bedrooms, bathrooms, house size, and property condition influence house prices.
+
+## Objectives
+
+* Analyze housing market data using Tableau.
+* Create interactive dashboards for better data understanding.
+* Identify patterns and trends in house prices.
+* Compare different property features using charts and graphs.
+* Help buyers, sellers, and real estate professionals make informed decisions.
+
+## Benefits of the Project
+
+The project enables users to easily explore housing market trends without analyzing large spreadsheets manually. Interactive dashboards provide quick insights into pricing patterns and property characteristics, improving decision-making for both buyers and sellers.
+
+## Conclusion
+
+The brainstorming phase helped identify housing market analysis as a meaningful and practical project. Tableau was chosen as the primary visualization tool because of its powerful dashboard capabilities, ease of use, and ability to present complex data in a clear and interactive manner.

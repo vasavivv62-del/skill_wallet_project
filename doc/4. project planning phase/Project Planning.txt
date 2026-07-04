@@ -1,0 +1,95 @@
+# Project Planning
+
+## Introduction
+
+Project Planning is an important phase in software development. It helps define the activities, schedule, resources, and milestones required to complete the project successfully. Proper planning ensures that the project is completed on time and meets all objectives.
+
+## Project Title
+
+Visualizing Housing Market Trends: An Analysis of Sale Prices and Features using Tableau
+
+## Project Objectives
+
+The main objectives of this project are:
+
+• To analyze housing market data using Tableau.
+
+• To create interactive dashboards for better visualization.
+
+• To identify trends in house sale prices.
+
+• To compare different housing features such as bedrooms, bathrooms, and living area.
+
+• To help users make better real estate decisions.
+
+## Project Activities
+
+Phase 1: Problem Identification
+
+The project begins by identifying the need for analyzing housing market trends using data visualization.
+
+Phase 2: Dataset Collection
+
+The housing dataset is collected from a reliable source in CSV or Excel format.
+
+Phase 3: Data Preparation
+
+The dataset is cleaned by removing duplicate records, handling missing values, and checking data accuracy.
+
+Phase 4: Dashboard Development
+
+Interactive dashboards are created in Tableau using charts, graphs, maps, and filters.
+
+Phase 5: Testing
+
+The dashboard is tested to ensure all filters, charts, and visualizations work correctly.
+
+Phase 6: Deployment
+
+The completed dashboard is published using Tableau Public and uploaded to GitHub.
+
+## Project Timeline
+
+Week 1
+
+• Problem Identification
+• Requirement Analysis
+
+Week 2
+
+• Dataset Collection
+• Data Cleaning
+
+Week 3
+
+• Dashboard Design
+• Chart Creation
+
+Week 4
+
+• Dashboard Testing
+• Documentation
+• GitHub Upload
+• Tableau Public Publishing
+
+## Resources Required
+
+• Tableau Desktop
+
+• Tableau Public
+
+• Microsoft Excel
+
+• GitHub
+
+• Microsoft Word
+
+• Housing Dataset
+
+## Expected Outcome
+
+The project will provide an interactive Tableau dashboard that helps users analyze housing market trends, compare property features, and understand pricing patterns effectively.
+
+## Conclusion
+
+Proper project planning ensures smooth execution of the project from data collection to dashboard deployment. It helps complete the project within the planned schedule while maintaining quality and accuracy.

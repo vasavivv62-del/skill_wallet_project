@@ -1,0 +1,49 @@
+# Customer Journey Map
+
+## Introduction
+
+A Customer Journey Map describes the complete experience of a user while interacting with the housing market dashboard. It helps understand how users access information, analyze data, and make decisions using the Tableau dashboard.
+
+## Target Users
+
+The primary users of this project are:
+
+• Home Buyers
+• Property Sellers
+• Real Estate Agents
+• Property Investors
+• Market Analysts
+
+## Customer Journey
+
+Stage 1: Need Identification
+
+The user wants to buy, sell, or analyze a property. They need accurate information about house prices and market trends.
+
+Stage 2: Data Exploration
+
+The user opens the Tableau dashboard and explores different charts, graphs, and filters to understand housing market data.
+
+Stage 3: Data Analysis
+
+The user compares house prices based on location, number of bedrooms, bathrooms, living area, and other important features.
+
+Stage 4: Decision Making
+
+Based on the dashboard insights, the user identifies the best property or market trend and makes an informed decision.
+
+Stage 5: Result
+
+The user saves time, understands the market better, and gains confidence in making property-related decisions.
+
+## Benefits
+
+• Easy visualization of housing data.
+• Interactive filters for better analysis.
+• Quick comparison of property prices.
+• Better decision making.
+• Time-saving data exploration.
+
+## Conclusion
+
+The Customer Journey Map shows how users interact with the dashboard from identifying their needs to making informed decisions. It ensures that the project delivers a simple, interactive, and user-friendly experience.

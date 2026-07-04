@@ -1,0 +1,81 @@
+# Problem Solution Fit
+
+## Introduction
+
+The housing market contains a large amount of data related to property prices, locations, house sizes, bedrooms, bathrooms, and other features. Analyzing this data manually is difficult and time-consuming. Buyers, sellers, and real estate professionals often find it challenging to identify market trends and compare different properties.
+
+The proposed solution uses Tableau to create an interactive dashboard that transforms raw housing data into meaningful visual insights.
+
+## Problem
+
+The major problems identified are:
+
+• Large housing datasets are difficult to understand.
+
+• Manual analysis consumes a lot of time.
+
+• Comparing multiple properties is challenging.
+
+• Identifying market trends from spreadsheets is not easy.
+
+• Decision making becomes difficult without proper visualization.
+
+## Proposed Solution
+
+The proposed solution is to build an interactive Tableau dashboard that allows users to visualize housing market data through charts, graphs, maps, and filters.
+
+Users can explore different aspects of the housing market, including:
+
+• Sale Price Analysis
+
+• Location-wise House Prices
+
+• Number of Bedrooms
+
+• Number of Bathrooms
+
+• Living Area Comparison
+
+• Property Feature Analysis
+
+## Problem and Solution Mapping
+
+Problem:
+Large amount of raw housing data.
+
+Solution:
+Interactive Tableau dashboards simplify complex data into easy-to-understand visualizations.
+
+Problem:
+Difficulty identifying market trends.
+
+Solution:
+Charts and graphs highlight trends and patterns.
+
+Problem:
+Time-consuming manual analysis.
+
+Solution:
+Interactive filters provide quick analysis.
+
+Problem:
+Poor decision making.
+
+Solution:
+Data-driven visualizations support better decisions.
+
+## Benefits
+
+• Easy understanding of housing market data.
+
+• Interactive and user-friendly dashboards.
+
+• Quick comparison of different properties.
+
+• Better investment and buying decisions.
+
+• Improved data analysis.
+
+## Conclusion
+
+The proposed Tableau dashboard successfully addresses the challenges of housing market analysis by providing an efficient, interactive, and visually appealing solution. It helps users understand market trends and make informed decisions using data visualization.

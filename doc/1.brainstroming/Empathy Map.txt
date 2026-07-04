@@ -1,0 +1,51 @@
+# Empathy Map
+
+## Introduction
+
+An Empathy Map is a design thinking tool used to understand the needs, expectations, and challenges of users. It helps developers build a solution that focuses on user requirements and improves the overall user experience.
+
+For this project, the primary users are home buyers, property sellers, real estate agents, and market analysts who need an easy way to understand housing market trends.
+
+## Think
+
+The users think about finding the best property within their budget. They want to know which locations offer better value, how property features affect prices, and whether the current market is suitable for buying or selling a house.
+
+## Feel
+
+Users often feel confused when they see large amounts of housing data in spreadsheets. They need simple visualizations that clearly explain market trends and property values. They also want reliable information to reduce the risk of making poor investment decisions.
+
+## See
+
+Users see thousands of property listings with different prices, locations, and features. Without proper visualization, it becomes difficult to compare houses or identify market patterns.
+
+## Say
+
+Users often ask questions such as:
+- Which area has the highest house prices?
+- Which property offers the best value?
+- How do bedrooms and bathrooms affect sale price?
+- What are the current housing market trends?
+
+## Do
+
+Users explore dashboards, apply filters, compare different properties, and analyze charts to make informed decisions. They use the dashboard to understand market conditions before buying or selling a property.
+
+## Pain Points
+
+- Large amount of raw data.
+- Difficulty identifying market trends.
+- Time-consuming manual analysis.
+- Lack of interactive visualization.
+- Difficulty comparing different properties.
+
+## Gains
+
+- Easy-to-understand interactive dashboards.
+- Quick analysis of housing market trends.
+- Better decision-making.
+- Accurate comparison of property features.
+- Time-saving visual analytics.
+
+## Conclusion
+
+The empathy map helps identify user needs and expectations. Understanding these requirements ensures that the Tableau dashboard provides meaningful insights and improves the user experience.
